@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Quicksand', sans-serif;
+}
+
+form {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/foto.png);
+    background-size: cover;
+    padding: 55px 70px;
+}
+
+.account {
+    margin-bottom: 50px;
+}
+
+form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+form fieldset label {
+    font-size: 15px;
+    color: #fbf6e4;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+form fieldset input {
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+form fieldset input:active {
+    border-radius: 0;
+}
+
+.account__signIn {
+    margin-right: 25px;
+}
+
+.keepme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.keepme label {
+    margin-left: 5px;
+    color: #fbf6e4;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.keepme :is(input, label) {
+    margin-bottom: 0px;
+}
+
+.account__signIn,
+.account__joinUs {
+    color: #fbf6e4;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-decoration: none;
+}
+
+.account__signIn:hover,
+.account__joinUs:hover {
+    border-bottom: 2px solid orange;
+}
+
+.recover-account__forgotPsw,
+.recover-account__createAcc {
+    color: #b9b9cc;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.btn-cta {
+    width: 261px;
+    height: 42px;
+    background-color: #23ae92;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fbf6e4;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.recover-account__forgotPsw,
+.recover-account__createAcc {
+    text-decoration: none;
+    color: #b9b9cc;
+    font-family: Quicksand;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.recover-account__forgotPsw {
+    margin-right: 43px;
+}
+
+.recover-account__forgotPsw:hover,
+.recover-account__createAcc:hover {
+    border-bottom: 1px solid orange;
+}
