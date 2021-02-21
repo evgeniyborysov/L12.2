@@ -17,7 +17,7 @@ form {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background-image: url(../img/foto.png);
+    background-image: url(./img/foto.png);
     background-size: cover;
     padding: 55px 70px;
 }
